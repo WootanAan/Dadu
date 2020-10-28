@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background-color: gandum;
+}
+header {
+	background-color: lime;
+	height: 50px;
+      width: 100%;
+      top: 0;
+      position: absolute;
+      position: fixed;
+      opacity: 0.9;
+      z-index: 20;
+}
+header button {
+	list-style: none;
+	display: inline-block;
+	width: 27%;
+	border-style: none;
+	border-right: 1px solid gray;
+	background-color: lime;
+	height: 50px;
+}
+.terklik {
+	background-color: green;
+	color: white;
+}
+.d1 {
+	border-left: 1px solid gray;
+}
+footer {
+	margin-top: 500px;
+	height: 300px;
+	width: 100%;
+	background-color: lightgray;
+	padding-top: 50px;
+	text-align: center;
+}
+footer a {
+	margin-top: 20px;
+}
+.dadu {
+	margin-top: 100px;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	border: none;
+	background-color: gainsboro;
+}
+@media (max-width: 200px) {
+	.dadu {
+		width: 100%;
+	}
+}
+.dadu:active {
+	background-color: thistle;
+}
+.dadu:hover {
+	background-color: thistle;
+}
+.dadu span {
+	font-size: 120px;
+}
+input {
+	height: 70px;
+	width: 70px;
+	margin-top: 80px;
+	border-radius: 50%;
+	position: relative;
+	border: none;
+	box-shadow: 0 7px green;
+	background-color: springgreen;
+	font-size: 20px;
+}
+input:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+}
